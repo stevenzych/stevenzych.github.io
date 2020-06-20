@@ -1,11 +1,11 @@
 # Site settings
 author: Steven Zych
-title: 
+title: The Steven Zych Python Experience
 header-img: img/home-bg.png
 email: stevenpzych@gmail.com
 copyright_name: Steven Zych
 description: > # this means to ignore newlines until "baseurl:"
-  
+  It's a blog!
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  stevenzych

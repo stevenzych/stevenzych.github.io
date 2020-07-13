@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Dungeons And"
-date:       2020-07-02 20:29:48 +0000
+date:       2020-07-02 16:29:49 -0400
 permalink:  dungeons_and
 ---
 
@@ -75,7 +75,7 @@ def new_unit(name):
     stats = list(np.zeros(len(stat_list)))
     size_dict = {1: '1d4', 2: '1d6', 3: '1d8', 4: '1d10', 5: '1d12'}
     exp_dict = {1: 'Green', 2: 'Regular', 3: 'Seasoned', 4: 'Veteran', 5: 'Elite'}
-	```
+```
 	
 The first line makes a list that contains all of our stats that can be *asked* for. (There's also a cost value assigned to units by the function, but the user doesn't set that.) The line after that opens a list of zeroes the length of our `stat_list`, for storing values as they're inputted. The last two lines are dictionaries for the how a unit's *size* corresponds to its *health,* shown here with polyhedral dice, and how its *experience* level corresponds to the title it's given.
 
